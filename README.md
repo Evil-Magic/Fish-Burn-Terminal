@@ -14,4 +14,6 @@
 
 ---
 
-## 🧭 示例链接
+## 🔗 示例链接
+https://evil-magic.github.io/Fish-Burn-Terminal/
+
