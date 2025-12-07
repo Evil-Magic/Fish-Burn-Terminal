@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>鱼人夜色终端 · 阅后即焚混合版 v3.5</title>
+  <link rel="icon" href="assets/logo.png">
+  <style>
+    body { background-color: #000; color: #ffd700; font-family: 'Courier New', monospace;
+           text-align: center; padding-top: 10%; margin: 0; }
+    h1 { text-shadow: 0 0 20px #facc15; font-size: 2em; }
+    button { background: #111; color: #ffd700; border: 1px solid #ffd700;
+             border-radius: 8px; padding: 10px 20px; font-size: 1em; margin-top: 20px;
+             box-shadow: 0 0 10px #facc1566; transition: 0.3s; }
+    button:hover { background: #ffd700; color: #000; box-shadow: 0 0 15px #facc15; cursor: pointer; }
+    canvas { display: block; margin: 40px auto; }
+    footer { color: #c9a400; margin-top: 50px; font-size: 0.9em; text-shadow: 0 0 8px #a68800; }
+  </style>
+</head>
+<body>
+  <h1>鱼人夜色终端 · 阅后即焚混合版 v3.5</h1>
+  <button id="startBurn">🔥 启动焚毁倒计时</button>
+  <canvas id="burnCanvas" width="400" height="120"></canvas>
+  <footer>鱼人・夜色终端</footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+<script src="js/burn.js"></script>
+</body>
+</html>
